@@ -21,11 +21,8 @@ Environment Files required for the project can be found [here](https://readytowo
   - **NOTE** `apiUrl` needs ip address of server if running from live device.
 
 - For firebase configuration
-  - Android
-    - Copy **google-services.json** inside `android/app` as `google-services.json.<dev|local|prod>`
-
-  - IOS
-    - Copy **GoogleService-Info.plist** inside `ios` as `GoogleService-Info.plist.<dev|local|prod>`
+  - IOS/Android
+    - Copy **GoogleService-Info.plist** & **google-services.json** inside `environmets/<dev|local|prod>`
 
 - Finally, run `yarn set:env:<dev|local|prod>` to set up the required environmental configuration.
 
